@@ -2,7 +2,7 @@
   "name": "ranyafazai-portfolio",
   "version": "1.0.0",
   "description": "Portfolio de Ranya Fazai - Développeuse Full-Stack",
-  "homepage": "https://ranyafazai.dev",
+  "homepage": "https://ranyafazai.github.io/ranyadevportfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.0"
   }
