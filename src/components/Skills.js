@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, 
-  FaDocker, FaAws, FaPython, FaDatabase, FaMobile, FaServer, FaUsers, FaCode
+  FaDatabase, FaServer, FaUsers, FaCode
 } from 'react-icons/fa';
-import { SiTypescript, SiPostgresql, SiMongodb, SiExpress, SiNextdotjs, SiVuedotjs } from 'react-icons/si';
+import { SiTypescript, SiPostgresql, SiMongodb, SiExpress, SiNextdotjs } from 'react-icons/si';
 
 const Skills = () => {
   const skillCategories = [

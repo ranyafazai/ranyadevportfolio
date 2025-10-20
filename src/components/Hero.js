@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaDownload } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
 import { HiCode } from 'react-icons/hi';
 import { PROFILE_IMAGE_URL } from '../config/profile';
 
@@ -79,7 +79,7 @@ const Hero = () => {
                 {hasImage ? (
                   <img
                     src={PROFILE_IMAGE_URL}
-                    alt="Photo de profil"
+                    alt="Profile"
                     className="w-full h-full rounded-full object-cover bg-gray-200 dark:bg-gray-700"
                     onError={() => setHasImage(false)}
                   />

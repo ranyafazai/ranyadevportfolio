@@ -15,7 +15,7 @@ import './index.css';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  // Removed unused loading state
 
   useEffect(() => {
     // Check for saved theme preference or default to light mode
