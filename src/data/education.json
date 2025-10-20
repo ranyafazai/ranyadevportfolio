@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "institution": "ReBootKamp (RBK)",
+    "degree": "Full-Stack Developer",
+    "duration": "February 2024 - September 2025",
+    "location": "Tunis, Tunisia",
+    "description": "Intensive, project‑based training focused on frontend (React, Next.js) and backend (Node.js, Express, MongoDB/PostgreSQL). Team collaboration with GitHub, Agile workflow, and code reviews.",
+    "achievements": [
+      "1.5‑year intensive program",
+      "Team‑based collaborative projects",
+      "Mastery of the full MERN stack",
+      "Agile methodology and Git workflow"
+    ]
+  }
+]

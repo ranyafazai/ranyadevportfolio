@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "3a9ary-TN",
+    "description": "Real‑estate listings web app for the Tunisian market with a modern, intuitive UI.",
+    "techStack": ["TypeScript", "Next.js", "Node.js"],
+    "githubLink": "https://github.com/DevFlux-Squad/main3a9ary",
+    "demoLink": "",
+    "image": "/images/project1.jpg",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "E-commerce-App",
+    "description": "Full‑stack e‑commerce app showcasing product lists, cart functionality, and user interactions.",
+    "techStack": ["JavaScript", "React", "Node.js", "Express"],
+    "githubLink": "https://github.com/YourTeam-dev/E-commerce-App",
+    "demoLink": "",
+    "image": "/images/project2.jpg",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "HealthyConnect",
+    "description": "Connected health app enabling communication between patients and doctors via text or video consults.",
+    "techStack": ["TypeScript", "React", "Node.js", "MongoDB"],
+    "githubLink": "https://github.com/YourTeam-dev/HealthyConnect",
+    "demoLink": "",
+    "image": "/images/project3.jpg",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Quiz Game",
+    "description": "Jeu de quiz interactif construit avec les technologies web fondamentales. Interface simple et engageante pour tester les connaissances.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/ranyafazai/quiz-game",
+    "demoLink": "",
+    "image": "/images/project4.jpg",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Rock-Paper-Scissors",
+    "description": "Classic Rock‑Paper‑Scissors game with a modern, interactive interface. Challenge the computer!",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/ranyafazai/Rock-Paper-Scissors",
+    "demoLink": "https://ranyafazai.github.io/Rock-Paper-Scissors/",
+    "image": "/images/project5.jpg",
+    "featured": true
+  }
+]

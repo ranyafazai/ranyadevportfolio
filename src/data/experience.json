@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "company": "Actively seeking",
+    "position": "Junior Full-Stack Developer",
+    "duration": "2025 - Present",
+    "location": "Tunis, Tunisia",
+    "description": "My professional journey is just beginning! I am actively looking for my first role as a Junior Full‑Stack Developer where I can contribute my skills and grow with a great team.",
+    "achievements": [
+      "1.5‑year intensive program at ReBootKamp (RBK)",
+      "Mastery of the MERN stack",
+      "Team‑based collaborative projects with GitHub",
+      "Agile methodology and code reviews"
+    ],
+    "technologies": ["React", "Node.js", "MongoDB", "PostgreSQL", "TypeScript", "Next.js"]
+  }
+]
