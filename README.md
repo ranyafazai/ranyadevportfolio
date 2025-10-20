@@ -1,172 +1,172 @@
-# Portfolio Rayen - Développeur Full-Stack
+# Ranya Fazai - Full-Stack Developer Portfolio
 
-Un portfolio moderne et responsive pour développeur Full-Stack, construit avec React et Tailwind CSS.
+A modern and responsive portfolio website built with React and Tailwind CSS, featuring a soft pink and lavender color scheme.
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- **Design moderne et responsive** - Interface élégante qui s'adapte à tous les écrans
-- **Mode sombre/clair** - Basculement entre thèmes avec persistance des préférences
-- **Animations fluides** - Animations avec Framer Motion pour une expérience utilisateur optimale
-- **Sections complètes** :
-  - Hero avec présentation personnelle
-  - À propos avec statistiques et technologies
-  - Compétences avec barres de progression
-  - Projets avec filtres et liens GitHub/Démo
-  - Expérience professionnelle avec timeline
-  - Formation et certifications
-  - Formulaire de contact avec EmailJS
-- **SEO optimisé** - Meta tags, Open Graph, et structure sémantique
-- **Performance** - Code optimisé et chargement rapide
+- **Modern responsive design** - Elegant interface that adapts to all screens
+- **Dark/light mode** - Theme switching with preference persistence
+- **Smooth animations** - Framer Motion animations for optimal user experience
+- **Complete sections**:
+  - Hero with personal introduction
+  - About with statistics and technologies
+  - Skills with progress bars
+  - Projects with filters and GitHub/Demo links
+  - Professional experience timeline
+  - Education and certifications
+  - Contact form with EmailJS
+- **SEO optimized** - Meta tags, Open Graph, and semantic structure
+- **Performance** - Optimized code and fast loading
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 
-- **Frontend** : React 18, JavaScript ES6+
-- **Styling** : Tailwind CSS
-- **Animations** : Framer Motion
-- **Icônes** : React Icons
-- **Email** : EmailJS (configurable)
-- **Build** : Create React App
+- **Frontend**: React 18, JavaScript ES6+
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Email**: EmailJS (configurable)
+- **Build**: Create React App
 
 ## 📦 Installation
 
-1. **Cloner le repository**
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/rayen/portfolio.git
-   cd portfolio
+   git clone https://github.com/ranyafazai/ranyadevportfolio.git
+   cd ranyadevportfolio
    ```
 
-2. **Installer les dépendances**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Configurer EmailJS (optionnel)**
-   - Créer un compte sur [EmailJS](https://www.emailjs.com/)
-   - Remplacer les clés dans `src/components/Contact.js`
-   - Ou utiliser le formulaire de contact sans EmailJS
+3. **Configure EmailJS (optional)**
+   - Create an account on [EmailJS](https://www.emailjs.com/)
+   - Replace the keys in `src/config/emailjs.js`
+   - Or use the contact form without EmailJS
 
-4. **Lancer le serveur de développement**
+4. **Start development server**
    ```bash
    npm start
    ```
 
-5. **Ouvrir dans le navigateur**
+5. **Open in browser**
    ```
    http://localhost:3000
    ```
 
-## 🎨 Personnalisation
+## 🎨 Customization
 
-### Modifier les données personnelles
+### Modify personal data
 
-1. **Projets** : Éditer `src/data/projects.json`
-2. **Expérience** : Éditer `src/data/experience.json`
-3. **Formation** : Éditer `src/data/education.json`
-4. **Informations personnelles** : Modifier les composants directement
+1. **Projects**: Edit `src/data/projects.json`
+2. **Experience**: Edit `src/data/experience.json`
+3. **Education**: Edit `src/data/education.json`
+4. **Personal information**: Modify components directly
 
-### Changer les couleurs
+### Change colors
 
-Modifier `tailwind.config.js` pour personnaliser la palette de couleurs :
+Modify `tailwind.config.js` to customize the color palette:
 
 ```javascript
 colors: {
   primary: {
-    // Vos couleurs primaires
+    // Your primary colors
   },
   secondary: {
-    // Vos couleurs secondaires
+    // Your secondary colors
   }
 }
 ```
 
-### Ajouter des sections
+### Add sections
 
-1. Créer un nouveau composant dans `src/components/`
-2. L'ajouter à `src/App.js`
-3. Mettre à jour la navigation dans `src/components/Header.js`
+1. Create a new component in `src/components/`
+2. Add it to `src/App.js`
+3. Update navigation in `src/components/Header.js`
 
-## 🚀 Déploiement
+## 🚀 Deployment
 
-### Vercel (Recommandé)
+### Vercel (Recommended)
 
-1. **Installer Vercel CLI**
+1. **Install Vercel CLI**
    ```bash
    npm i -g vercel
    ```
 
-2. **Déployer**
+2. **Deploy**
    ```bash
    vercel
    ```
 
-3. **Configuration automatique** - Vercel détecte automatiquement React
+3. **Automatic configuration** - Vercel automatically detects React
 
 ### Netlify
 
-1. **Build du projet**
+1. **Build the project**
    ```bash
    npm run build
    ```
 
-2. **Déployer le dossier `build`** sur Netlify
+2. **Deploy the `build` folder** to Netlify
 
 ### GitHub Pages
 
-1. **Installer gh-pages**
+1. **Install gh-pages**
    ```bash
    npm install --save-dev gh-pages
    ```
 
-2. **Ajouter les scripts dans package.json**
+2. **Add scripts to package.json**
    ```json
-   "homepage": "https://rayen.github.io/portfolio",
+   "homepage": "https://ranyafazai.github.io/ranyadevportfolio",
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d build"
    }
    ```
 
-3. **Déployer**
+3. **Deploy**
    ```bash
    npm run deploy
    ```
 
 ## 📱 Responsive Design
 
-Le portfolio est entièrement responsive avec des breakpoints optimisés :
+The portfolio is fully responsive with optimized breakpoints:
 
-- **Mobile** : < 768px
-- **Tablet** : 768px - 1024px
-- **Desktop** : > 1024px
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
 
-## 🎯 SEO et Performance
+## 🎯 SEO and Performance
 
-- Meta tags optimisés pour les moteurs de recherche
-- Open Graph pour le partage sur les réseaux sociaux
-- Images optimisées et lazy loading
-- Code splitting automatique avec React
-- Service Worker pour la mise en cache
+- Optimized meta tags for search engines
+- Open Graph for social media sharing
+- Optimized images and lazy loading
+- Automatic code splitting with React
+- Service Worker for caching
 
-## 📄 Licence
+## 📄 License
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+This project is under MIT license. See the `LICENSE` file for more details.
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
+Contributions are welcome! Feel free to:
 
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité
-3. Commit vos changements
-4. Push vers la branche
-5. Ouvrir une Pull Request
+1. Fork the project
+2. Create a branch for your feature
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
 ## 📞 Contact
 
-- **Email** : rayen@example.com
-- **LinkedIn** : [linkedin.com/in/rayen](https://linkedin.com/in/rayen)
-- **GitHub** : [github.com/rayen](https://github.com/rayen)
+- **Email**: ranyafazaei@gmail.com
+- **LinkedIn**: [linkedin.com/in/ranya-fazai-b80020386](https://linkedin.com/in/ranya-fazai-b80020386)
+- **GitHub**: [github.com/ranyafazai](https://github.com/ranyafazai)
 
 ---
 
-Fait avec ❤️ par Rayen
+Made with ❤️ by Ranya Fazai
