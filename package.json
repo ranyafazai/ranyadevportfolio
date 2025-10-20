@@ -2,7 +2,7 @@
   "name": "ranyafazai-portfolio",
   "version": "1.0.0",
   "description": "Portfolio de Ranya Fazai - Développeuse Full-Stack",
-  "homepage": "https://ranyafazai.github.io/ranyadevportfolio",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
