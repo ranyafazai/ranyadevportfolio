@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ranyadevportfolio/static/css/main.3d86ba08.css",
+    "main.js": "/ranyadevportfolio/static/js/main.9b2dff58.js",
+    "index.html": "/ranyadevportfolio/index.html",
+    "main.3d86ba08.css.map": "/ranyadevportfolio/static/css/main.3d86ba08.css.map",
+    "main.9b2dff58.js.map": "/ranyadevportfolio/static/js/main.9b2dff58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d86ba08.css",
+    "static/js/main.9b2dff58.js"
+  ]
+}

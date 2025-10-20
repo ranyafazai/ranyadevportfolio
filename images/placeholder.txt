@@ -1,0 +1,21 @@
+# Images Placeholder
+
+Ce dossier contient les images du portfolio. Ajoutez vos propres images :
+
+- project1.jpg - Image du projet e-commerce
+- project2.jpg - Image du dashboard admin
+- project3.jpg - Image de l'API REST
+- project4.jpg - Image de l'application de gestion de tâches
+- project5.jpg - Image du blog personnel
+- project6.jpg - Image de l'application météo
+
+## Recommandations pour les images :
+
+- Format : JPG ou PNG
+- Taille : 800x600px minimum
+- Optimisation : Compresser les images pour le web
+- Ratio : 4:3 ou 16:9 recommandé
+
+## Images par défaut :
+
+Si vous n'avez pas d'images, le portfolio utilisera des placeholders avec des icônes.
