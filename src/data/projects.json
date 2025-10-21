@@ -32,12 +32,12 @@
   {
     "id": 4,
     "title": "Quiz Game",
-    "description": "Jeu de quiz interactif construit avec les technologies web fondamentales. Interface simple et engageante pour tester les connaissances.",
+    "description": "Interactive quiz game built with fundamental web technologies. Simple and engaging interface to test knowledge.",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "githubLink": "https://github.com/ranyafazai/quiz-game",
-    "demoLink": "",
+    "demoLink": "https://ranyafazai.github.io/quiz-game/",
     "image": "/images/project4.jpg",
-    "featured": false
+    "featured": true
   },
   {
     "id": 5,
